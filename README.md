@@ -2,7 +2,19 @@
 
 An AI-driven research and content generation system that transforms any topic into engaging podcast-style video content. Using Google's Gemini AI models, this agent performs comprehensive research, analyzes multimedia content, and creates professional podcast videos with synthesized audio, AI-generated speaker images, and dynamic backgrounds.
 
-## 🌟 Features
+## Architecture
+
+The system follows a LangGraph-based workflow 
+
+![Workflow Graph](podcast/graph.png)
+
+1. **Research Phase**: Web search and optional video analysis
+2. **Content Creation**: Podcast script generation and intelligent segmentation
+3. **Media Generation**: Speaker images and background creation
+4. **Video Production**: TTS audio generation and final video assembly
+
+
+## Features
 
 ### Core Capabilities
 - **Multi-Modal Research**: Combines web search and YouTube video analysis for comprehensive topic coverage
@@ -20,7 +32,7 @@ An AI-driven research and content generation system that transforms any topic in
 - **Intelligent Segmentation**: Automatic content analysis and thematic organization
 
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository**:
    ```bash
@@ -47,7 +59,7 @@ An AI-driven research and content generation system that transforms any topic in
    LANGSMITH_PROJECT=your_project_name       # Optional
    ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Using LangGraph Server (Recommended)
 
@@ -62,7 +74,7 @@ uvx --refresh --from "langgraph-cli[inmem]" --with-editable . --python 3.11 lang
 cd src/agent && uv run graph.py 
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 The system supports extensive configuration through the `Configuration` class:
 
@@ -83,19 +95,6 @@ The system supports extensive configuration through the `Configuration` class:
 - `search_temperature`: Factual search (default: 0.0)
 - `synthesis_temperature`: Balanced synthesis (default: 0.3)
 - `podcast_temperature`: Creative dialogue (default: 0.4)
-
-## 🏗️ Architecture
-
-The system follows a LangGraph-based workflow 
-
-![Workflow Graph](podcast/graph.png)
-
-### Key Components
-
-1. **Research Phase**: Web search and optional video analysis
-2. **Content Creation**: Podcast script generation and intelligent segmentation
-3. **Media Generation**: Speaker images and background creation
-4. **Video Production**: TTS audio generation and final video assembly
 
 ## 📁 Project Structure
 
@@ -118,7 +117,7 @@ multi-modal-researcher-agent/
 ```
 
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Google Gemini**: For powerful multi-modal AI capabilities
 - **LangGraph**: For workflow orchestration
