@@ -19,11 +19,6 @@ An AI-driven research and content generation system that transforms any topic in
 - **Configurable Models**: Flexible model selection for different tasks
 - **Intelligent Segmentation**: Automatic content analysis and thematic organization
 
-## 🛠️ Prerequisites
-
-- **Python**: 3.11 or higher
-- **Google Gemini API**: Access to Gemini models
-- **LangSmith**: For tracing and monitoring (optional but recommended)
 
 ## 📦 Installation
 
