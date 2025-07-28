@@ -6,7 +6,7 @@ An AI-driven research and content generation system that transforms any topic in
 
 The system follows a LangGraph-based workflow 
 
-![Workflow Graph](podcast/graph.png)
+<img src="podcast/graph.png" alt="Workflow Graph" width="600">
 
 1. **Research Phase**: Web search and optional video analysis
 2. **Content Creation**: Podcast script generation and intelligent segmentation
