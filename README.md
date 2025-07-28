@@ -123,4 +123,5 @@ multi-modal-researcher-agent/
 - **LangGraph**: For workflow orchestration
 - **LangSmith**: For observability and debugging
 - **MoviePy**: For video processing capabilities
-
+- **Lance from LangChain**: Excellent video by Lance https://www.youtube.com/watch?v=6Ww5uyS0tXw&t=65s. I simply extend work a little more.
+ 
