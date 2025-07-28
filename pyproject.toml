@@ -1,9 +1,9 @@
 [project]
-name = "mutli-modal-researcher"
+name = "multi-modal-researcher"
 version = "0.0.1"
 description = "Multi-modal researcher with Gemini"
 authors = [
-    { name = "Lance Martin", email = "lance@langchain.dev" },
+    { name = "Tai Do", email = "doductai8590@gmail.com" },
 ]
 readme = "README.md"
 license = { text = "MIT" }
@@ -19,6 +19,10 @@ dependencies = [
     "fastapi",
     "google-genai",
     "rich",
+    "opencv-python>=4.12.0.88",
+    "moviepy>=2.2.1",
+    "pillow>=11.3.0",
+    "imageio[pyav]>=2.37.0",
 ]
 
 

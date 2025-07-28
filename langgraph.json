@@ -3,7 +3,7 @@
         "."
     ],
     "graphs": {
-        "research_agent": "agent.graph:create_compiled_graph"
+        "research_agent": "agent.graph:create_graph" 
     },
     "env": ".env"
 }
